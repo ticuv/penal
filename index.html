@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator Teste Grilă - Drept Penal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>📚 Generator Teste Grilă</h1>
+            <p class="subtitle">Drept Penal - 450 întrebări disponibile</p>
+        </header>
+
+        <!-- Meniu Principal -->
+        <div id="mainMenu" class="screen active">
+            <div class="menu-card">
+                <h2>Bine ai venit!</h2>
+                <p>Generează un test cu 18 întrebări aleatorii din baza de date.</p>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">450</div>
+                        <div class="stat-label">Întrebări totale</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="testsDone">0</div>
+                        <div class="stat-label">Teste finalizate</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="avgScore">0%</div>
+                        <div class="stat-label">Scor mediu</div>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary btn-large" onclick="startNewTest()">
+                    🎯 Începe un test nou
+                </button>
+
+                <div class="info-box">
+                    <p><strong>ℹ️ Cum funcționează:</strong></p>
+                    <ul>
+                        <li>18 întrebări selectate aleatoriu</li>
+                        <li>Răspunsuri multiple posibile</li>
+                        <li>Feedback imediat după fiecare întrebare</li>
+                        <li>Scor final la finalul testului</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ecran Test -->
+        <div id="testScreen" class="screen">
+            <!-- Progress Bar -->
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressBar"></div>
+                </div>
+                <div class="progress-text">
+                    Întrebarea <span id="currentQuestion">1</span> din <span id="totalQuestions">18</span>
+                </div>
+            </div>
+
+            <!-- Întrebare -->
+            <div class="question-card" id="questionCard">
+                <div class="question-number">Întrebarea <span id="questionNum">1</span></div>
+                <div class="question-text" id="questionText"></div>
+                
+                <div class="answers-container" id="answersContainer">
+                    <!-- Răspunsurile vor fi generate dinamic -->
+                </div>
+
+                <div class="button-group">
+                    <button class="btn btn-secondary" id="actionBtn" onclick="handleAction()">
+                        Verifică răspunsul
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ecran Rezultate -->
+        <div id="resultsScreen" class="screen">
+            <div class="results-card">
+                <div class="results-header">
+                    <h2>🎉 Test finalizat!</h2>
+                </div>
+
+                <div class="score-display">
+                    <div class="score-circle">
+                        <div class="score-number" id="finalScore">0</div>
+                        <div class="score-total">din 18</div>
+                    </div>
+                    <div class="score-percentage" id="scorePercentage">0%</div>
+                </div>
+
+                <div class="score-message" id="scoreMessage"></div>
+
+                <div class="results-details">
+                    <div class="detail-item">
+                        <span class="detail-label">Răspunsuri corecte:</span>
+                        <span class="detail-value correct" id="correctAnswers">0</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Răspunsuri greșite:</span>
+                        <span class="detail-value wrong" id="wrongAnswers">0</span>
+                    </div>
+                </div>
+
+                <div class="button-group">
+                    <button class="btn btn-primary" onclick="startNewTest()">
+                        🔄 Încearcă din nou
+                    </button>
+                    <button class="btn btn-secondary" onclick="goToMenu()">
+                        🏠 Meniu principal
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
