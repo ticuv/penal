@@ -275,7 +275,10 @@ const allQuestions = [
     {q:"În materia unității de infracțiune:",a:{a:"se poate reține ca după epuizarea infracțiunii continue poate fi posibilă o altă prelungire în timp a acțiunii sau inacțiunii care reprezintă elementul material",b:"data săvârșirii infracțiunii continuate este reprezentată de data efectuării celui de al doilea act de executare dintr-un total de cinci",c:"data consumării infracțiunii continuate este reprezentată de data efectuării celui de al doilea act de executare dintr-un total de cinci"},correct:["c"]},
     {q:"În cazul infracțiunii continuate:",a:{a:"există concurs de infracțiuni",b:"există unitate naturală de infracțiune",c:"există unitate legală de infracțiune"},correct:["c"]},
     {q:"În cazul infracțiunii continuate:",a:{a:"nu este posibilă participația penală",b:"nu este necesară unitatea de rezoluție infracțională",c:"este necesară unitatea de rezoluție infracțională"},correct:["c"]},
-    {q:"Pentru a se reține existența formei continuate a infracțiunii, trebuie să existe:",a:{a:"unitate de rezoluție infracțională",b:"un subiect pasiv principal unic, chiar dacă sunt mai mulți subiecți pasivi secundari",c:"un subiect pasiv secundar unic, chiar dacă sunt mai mulți subiecți pasivi principali"},correct:["a","    // GRILE 4 (271-360)
+    {q:"Pentru a se reține existența formei continuate a infracțiunii, trebuie să existe:",a:{a:"unitate de rezoluție infracțională",b:"un subiect pasiv principal unic, chiar dacă sunt mai mulți subiecți pasivi secundari",c:"un subiect pasiv secundar unic, chiar dacă sunt mai mulți subiecți pasivi principali"},correct:["a","b"]},  
+     
+                                                                                                                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                 // GRILE 4 (271-360)
     {q:"În raport cu care moment al infracțiunii continuate se calculează termenul de prescripție a răspunderii penale:",a:{a:"data comiterii ultimei acțiuni sau inacțiuni",b:"momentul consumării infracțiunii continuate",c:"data la care s-a produs rezultatul"},correct:["a"]},
     {q:"Care este momentul în raport cu care se aplică beneficiul amnistiei în cazul săvârșirii unei infracțiuni continuate:",a:{a:"momentul consumării infracțiunii",b:"data comiterii ultimei acțiuni sau inacțiuni",c:"momentul producerii rezultatului"},correct:["b"]},
     {q:"În cazul infracțiunii continuate:",a:{a:"nu se poate exclude existența participației penale",b:"se exclude existența participației penale",c:"nu este solicitată o unitate de rezoluție infracțională"},correct:["a"]},
@@ -651,5 +654,3 @@ function goToMenu() {
 
 // Initialize app
 loadStats();
-
-];
