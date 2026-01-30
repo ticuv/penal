@@ -97,9 +97,11 @@ const allQuestions = [
     {q:"Ultraactivează:",a:{a:"legea penală de dezincriminare",b:"legea penală excepțională",c:"legea penală temporară"},correct:["c"]},
     {q:"Când pedeapsa amenzii pronunțate definitiv în temeiul legii vechi este mai mică decât maximul special al amenzii prevăzut în legea nouă:",a:{a:"se aplică în mod obligatoriu legea penală mai favorabilă",b:"se poate aplica în mod facultativ legea penală mai favorabilă",c:"în această situație nu se aplică legea penală mai favorabilă"},correct:["c"]},
     {q:"Instanța l-a condamnat pe inculpatul M.D. la pedeapsa închisorii de 9 ani pentru o infracțiune pedepsită de legea penală cu închisoare de la 1 la 15 ani. În timpul executării pedepsei a intervenit o nouă lege care prevedea, pentru aceeași faptă, pedeapsa închisorii de la 1 la 7 ani. În această situație instanța va reduce pedeapsa pronunțată cu:",a:{a:"1 an",b:"2 ani",c:"4 ani"},correct:["b"]},
-    {q:"Legea penală este lege temporară dacă:",a:{a:"a fost în vigoare o scurtă perioadă de timp, fiind ulterior abrogată sau înlocuită de o altă lege",b:"aplicarea ei este limitată prin natura temporară a situației care a impus adoptarea sa",c:"limitarea ei în timp rezultă fără echivoc din însuși textul ei, prevăzându-se data ieșirii din vigoare"},correct:["b","c"]},
-    {q:"Atunci când se săvârșește o infracțiune de către un cetățean român în străinătate, condiția dublei incriminări nu trebuie îndeplinită pentru aplicarea legii penale române conform principiului personalității:",a:{a:"dacă pedeapsa prevăzută de legea penală română pentru infracțiunea săvârșită este amenda",b:"dacă pedeapsa prevăzută de legea penală română pentru infracțiunea săvârșită este închisoarea mai mare de 10 ani",c:"dacă pedeapsa prevăzută de legea penală română pentru infracțiunea săvârșită este închisoarea mai mică de 10 ani"},correct:["    // GRILE 2 (96-180)
+    {q:"Legea penală este lege temporară dacă:",a:{a:"a fost în vigoare o scurtă perioadă de timp, fiind ulterior abrogată sau înlocuită de o altă lege",b:"aplicarea ei este limitată prin natura temporară a situației care a impus adoptarea sa",c:"limitarea ei în timp rezultă fără echivoc din însuși textul ei, prevăzându-se data ieșirii din vigoare"},correct:["b","c"]},    {q:"Atunci când se săvârșește o infracțiune de către un cetățean român în străinătate, condiția dublei incriminări nu trebuie îndeplinită pentru aplicarea legii penale române conform principiului personalității:",a:{a:"dacă pedeapsa prevăzută de legea penală română pentru infracțiunea săvârșită este amenda",b:"dacă pedeapsa prevăzută de legea penală română pentru infracțiunea săvârșită este închisoarea mai mare de 10 ani",c:"dacă pedeapsa prevăzută de legea penală română pentru infracțiunea săvârșită este închisoarea mai mică de 10 ani"},correct:["b"]}, 
+    
+    // GRILE 2 (96-180)
     {q:"Trăsăturile esențiale ale infracțiunii sunt:",a:{a:"prevederea faptei în legea penală",b:"pericolul social",c:"săvârșirea faptei cu intenție"},correct:["a"]},
+
     {q:"Imputabilitatea este:",a:{a:"o trăsătură a infracțiunii",b:"o cauză de nepedepsire",c:"o cauză de înlăturare a caracterului penal al faptei"},correct:["a"]},
     {q:"Elementele infracțiunii sunt:",a:{a:"prevederea în legea penală, vinovăția, caracterul nejustificat și caracterul imputabil",b:"vinovăția, caracterul nejustificat și imputabilitatea faptei",c:"prevederea în legea penală, caracterul nejustificat, imputabilitatea"},correct:["a"]},
     {q:"Trăsăturile esențiale ale infracțiunii sunt:",a:{a:"latura obiectivă și latura subiectivă",b:"tipicitatea, antijuridicitatea și imputabilitatea",c:"tipicitatea, vinovăția și imputabilitatea"},correct:["b"]},
@@ -435,15 +437,14 @@ const allQuestions = [
     {q:"Având în vedere dispozițiile Codului penal (art. 46), autorul:",a:{a:"este persoana care săvârșește în mod nemijlocit o faptă prevăzută de legea penală",b:"poate fi un minor care nu răspunde penal",c:"este persoana care săvârșește în mod nemijlocit o tentativă neîncriminată la o faptă prevăzută de legea penală"},correct:["a","b"]},
     {q:"Fapta persoanei care promite înainte de săvârșirea faptei penale că va tăinui bunurile provenite din aceasta, dar după săvârșirea ei nu-și mai ține promisiunea:",a:{a:"nu constituie faptă penală, fiind o simplă promisiune",b:"constituie infracțiune de tăinuire",c:"constituie complicitate"},correct:["c"]},
     {q:"Pentru a fi autor al unei infracțiuni cu subiect activ calificat:",a:{a:"calitatea specială prevăzută de norma de incriminare trebuie să existe la momentul comiterii faptei",b:"calitatea specială prevăzută de norma de incriminare poate fi dobândită ulterior momentului comiterii faptei",c:"calitatea specială prevăzută de norma de incriminare poate exista anterior momentului comiterii faptei"},correct:["a"]},
-    {q:"Făptuitorul care oferă bani sau alte foloase (provenite de la alte persoane) unui funcționar public, pentru ca acesta să săvârșească o infracțiune de luare de mită, are calitatea de:",a:{a:"autor al infracțiunii de dare de mită",b:"complice la infracțiunea de luare de mită",c:"nu răspunde penal"},correct:["a"]},
-    {q:"Coautorii:",a:{a:"sunt persoanele care determină o persoană să comită o faptă prevăzută de legea penală",b:"sunt persoanele care ajută la comiterea unei fapte prevăzute de legea penală",c:"sunt persoanele care săvârșesc nemijlocit aceeași faptă prevăzută de legea penală"},correct:["c"]}
+    {q:"Făptuitorul care oferă bani sau alte foloase (provenite de la alte persoane) unui funcționar public, pentru ca acesta să săvârșească o infracțiune de luare de mită, are calitatea de:",a:{a:"autor al infracțiunii de dare de mită",b:"complice la infracțiunea de luare de mită",c:"nu răspunde penal"},correct:["a"]},    {q:"Coautorii:",a:{a:"sunt persoanele care determină o persoană să comită o faptă prevăzută de legea penală",b:"sunt persoanele care ajută la comiterea unei fapte prevăzute de legea penală",c:"sunt persoanele care săvârșesc nemijlocit aceeași faptă prevăzută de legea penală"},correct:["c"]}
 ];
 
-// ÎNCHIDE array-ul allQuestions
+// ===================================
+// LOGICA APLICAȚIEI
+// ===================================
 
-
-]; // ÎNCHIDE array-ul allQuestions
-
+let currentTest = [];
 // ===================================
 // LOGICA APLICAȚIEI
 // ===================================
