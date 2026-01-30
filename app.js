@@ -653,5 +653,3 @@ function goToMenu() {
 loadStats();
 
 ];
-
-];
