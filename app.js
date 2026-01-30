@@ -441,7 +441,7 @@ const allQuestions = [
 ];
 
 // ===================================
-// LOGICA APLICAȚIEI
+// LOGICA APLICAȚIEI - TEST
 // ===================================
 
 let currentTest = [];
