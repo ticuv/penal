@@ -437,14 +437,9 @@ const allQuestions = [
     {q:"Având în vedere dispozițiile Codului penal (art. 46), autorul:",a:{a:"este persoana care săvârșește în mod nemijlocit o faptă prevăzută de legea penală",b:"poate fi un minor care nu răspunde penal",c:"este persoana care săvârșește în mod nemijlocit o tentativă neîncriminată la o faptă prevăzută de legea penală"},correct:["a","b"]},
     {q:"Fapta persoanei care promite înainte de săvârșirea faptei penale că va tăinui bunurile provenite din aceasta, dar după săvârșirea ei nu-și mai ține promisiunea:",a:{a:"nu constituie faptă penală, fiind o simplă promisiune",b:"constituie infracțiune de tăinuire",c:"constituie complicitate"},correct:["c"]},
     {q:"Pentru a fi autor al unei infracțiuni cu subiect activ calificat:",a:{a:"calitatea specială prevăzută de norma de incriminare trebuie să existe la momentul comiterii faptei",b:"calitatea specială prevăzută de norma de incriminare poate fi dobândită ulterior momentului comiterii faptei",c:"calitatea specială prevăzută de norma de incriminare poate exista anterior momentului comiterii faptei"},correct:["a"]},
-    {q:"Făptuitorul care oferă bani sau alte foloase (provenite de la alte persoane) unui funcționar public, pentru ca acesta să săvârșească o infracțiune de luare de mită, are calitatea de:",a:{a:"autor al infracțiunii de dare de mită",b:"complice la infracțiunea de luare de mită",c:"nu răspunde penal"},correct:["a"]},    {q:"Coautorii:",a:{a:"sunt persoanele care determină o persoană să comită o faptă prevăzută de legea penală",b:"sunt persoanele care ajută la comiterea unei fapte prevăzute de legea penală",c:"sunt persoanele care săvârșesc nemijlocit aceeași faptă prevăzută de legea penală"},correct:["c"]}
+    {q:"Coautorii:",a:{a:"sunt persoanele care determină o persoană să comită o faptă prevăzută de legea penală",b:"sunt persoanele care ajută la comiterea unei fapte prevăzute de legea penală",c:"sunt persoanele care săvârșesc nemijlocit aceeași faptă prevăzută de legea penală"},correct:["c"]}
 ];
 
-// ===================================
-// LOGICA APLICAȚIEI
-// ===================================
-
-let currentTest = [];
 // ===================================
 // LOGICA APLICAȚIEI
 // ===================================
@@ -458,6 +453,7 @@ let stats = {
     testsDone: 0,
     totalScore: 0
 };
+
 
 // Încarcă statistici din localStorage
 function loadStats() {
